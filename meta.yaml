@@ -1,0 +1,19 @@
+package:
+    name: pyusb
+    version: 1.0.0
+
+build:
+    number: 0
+    script: python -m pip install "pyusb==1.0.0"
+
+requirements:
+    build:
+        - python 2.7*
+
+    run:
+        - python 2.7*
+        - libusb
+
+about:
+  home: https://github.com/libusb/libusb
+  license: BSD-3 compatible
